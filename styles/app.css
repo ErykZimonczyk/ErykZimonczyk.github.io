@@ -4,6 +4,7 @@ body {
     color: #1f1f1f;
     max-width: 900px;
     margin: 100px auto;
+    padding: 0 25px;
 }
 
 * {
@@ -93,4 +94,34 @@ section .column-list ul li {
 
 .desc {
     font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    section .positions-list, section .column-list {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    body {
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+
+    header {
+        flex-direction: column;
+    }
+
+    header .basic-info .contact-info {
+        margin-top: 20px;
+    }
+
+    header .logo {
+        margin-bottom: 20px;
+    }
+
+    header .logo img {
+        height: 80px;
+        width: 80px;
+    }
 }
