@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(245,245,245);
+    color: #1f1f1f;
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: #1f1f1f;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+header .logo {
+    align-content: center;
+    flex: 65px 0;
+    display: flex;
+    margin-right: 30px;
+}
+
+header .logo img {
+    height: 200px;
+    width: 200px;
+}
+
+header .basic-info {
+    flex: 1;
+}
+
+header .basic-info .page-title {
+    margin: 0 auto;
+}
+
+header .basic-info .subtitle, header .basic-info .contact-info {
+    margin-left: 2px;
+}
+
+header .basic-info .contact-info {
+    margin-top: 80px;
+}
+
+section {
+    border-top: 1px solid #1f1f1f;
+    margin-top: 30px;
+}
+
+section h2 {
+    margin: 5px auto 0;
+}
+
+section .positions-list, section .column-list {
+    margin-left: 232px;
+    margin-top: 0;
+}
+
+section .positions-list li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+section .positions-list li h3 {
+    margin: 0;
+}
+
+section .positions-list li:not(:last-child) {
+    border-bottom:  1px solid #1f1f1f;
+}
+
+section .column-list {
+    display: flex;
+}
+
+section .column-list ul {
+    flex: 1;
+    margin-top: 0;
+}
+
+section .column-list ul li {
+    margin: 3px 0;
+}
+
+.date, .position {
+    display: block;
+}
+
+.desc {
+    font-size: 14px;
+}
